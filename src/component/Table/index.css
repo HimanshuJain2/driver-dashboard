@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+.tableContainer {
+  border: 1px solid #e2e3de;
+  width: 100%;
+}
+.tableContent{
+    border: 1px solid #e2e3de;
+    width: 100%; 
+}
+.tableHeader {
+  background-color: #109887;
+  color: #ffffff;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+}
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.headerColumn {
+  width: 11.1%;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.bodyRow {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.tableFooter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  border-top: 1px solid #e2e3de;
+}
+.footerButton {
+  background-color: #ffffff;
+  border: 0.25px solid #e2e3de;
+  width: 20px;
+  height: 20px;
+}
+.fa {
+  font-size: 12px;
+}
+.footerSelect {
+  width: auto;
+  border: 0.15px solid #e2e3de;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #4D4D4F;
+}
+.footerInput {
+  width: 15px;
+  height: 15px;
+  border: 0.25px solid #e2e3de;
+}
+.footerPagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.statusTile {
+  width: 64px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: #c09300;
+  font-size: 10px;
+  line-height: 18px;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.statusColumn {
+  width: 11.1%;
+  justify-items: center;
+  margin: 0px -20px 0px 20px;
+}
+.iconColumn {
+  width: 11.1%;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.textColumn {
+  width: 11.1%;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.option{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: #4D4D4F;
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.modalHeader {
+  width: Fill 1000px;
+  height: 39px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(88.52deg, #14162e 60.49%, #109887 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.required {
+  color: red;
+  margin-left: 2px;
+  font-size: 13px;
+}
+
+.userType {
+  width: 518px;
+  height: 65px;
+}
+
+.group242 .type {
+  display: flex;
+  flex-direction: column;
+}
+.group242 {
+  width: 181.34px;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px;
+}
+.userType {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerForm {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.countryInput {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.radioButtons {
+  margin-top: 5px;
+}
+.bodyRows {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.personalDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.personalDetailsText {
+  width: 15%;
+  background-color: #109887;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.polygon {
+  border-top: 10px solid transparent;
+  border-left: 19px solid #109887;
+  border-bottom: 10px solid transparent;
+  border-right: 0px;
+}
+.line57 {
+  height: 1px;
+  background-color: #109887;
+  width: 85%;
+}
+.inputDanger {
+  border-color: red;
+}
+.selectDanger {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.errorText {
+  color: red;
+}
+.closeButton {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 1440px) {
+  .userType {
+    width: 60%;
+  }
+  .group242 {
+    width: 150px;
+  }
+  .bodyRows {
+    margin-top: 10px;
+  }
+  .flex-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .userType {
+    width: 55%;
+  }
+  .group242 {
+    width: 120px;
+  }
+  .bodyRows {
+    margin-top: 10px;
+  }
+  .flex-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .userType {
+    width: 50%;
+  }
+  .group242 {
+    width: 100px;
+  }
+  .bodyRows {
+    margin-top: 10px;
+  }
+  .flex-item {
+    width: 25%;
+  }
+}

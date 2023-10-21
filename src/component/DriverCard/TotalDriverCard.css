@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.tcard{
+    width:220px;
+    height:90px;
+    border-radius:10px;
+    border:.25px solid #E2E3DE;
+    padding:16px 14px 16px 14px;
+    margin: 0 0 10px 10px;
+}
+.tcardHeader{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #4D4D4F;
+}
+.tcardHeader .fa{
+    color: #109887;
+    font-size: 16px;
+}
+.tcardContent{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.driverPercent .percentText{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 16px;
+    color: #403F3D;
+}
+.driverPercent .percent{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter';
+    line-height: 24px;
+    color: #403F3D;
+    margin: 5px 0px 0 0;
+}
+
+.tcount{
+    font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1C1A;
+    font-weight: 400;
+}
